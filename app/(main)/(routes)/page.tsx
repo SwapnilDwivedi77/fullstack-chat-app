@@ -1,6 +1,8 @@
+import { UserButton } from "@clerk/nextjs";
+
 const Home = () => {
     return ( <>
-    Protected route
+    <UserButton afterSignOutUrl="/sign-in"/>
     </> );
 }
  
